@@ -68,4 +68,3 @@ consolidate_data=BashOperator(
 #Task pipeline
 download_data >> unzip_data >> extract_data_from_csv >> extract_data_from_tsv >> extract_data_from_fixed_width >> consolidate_data
 
-# Airflow repoository.
